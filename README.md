@@ -8,10 +8,10 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:Gustavo Alves 
+- Matricula: 926079
+- Proposta de projeto escolhida:itens e coleção
+- Breve descrição sobre seu projeto: Comparar peças de hardware
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
