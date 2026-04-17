@@ -2,6 +2,29 @@ body {
     margin: 0;
     font-family: Arial;
     color: white;
+    background: linear-gradient(to right, #1e1e1e, #2c2c2c);
+}
+
+.banner {
+    padding: 100px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("https://picsum.photos/1200/400");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+footer {
+    background-color: #2a2a2a;
+    padding: 20px;
+    text-align: center;
+}
+
+/*
+body {
+    margin: 0;
+    font-family: Arial;
+    color: white;
     background: linear-gradient(to right, #1e1e1e, #2c2c2c)
 }
 
@@ -18,12 +41,12 @@ h2 {
     background-color: #2a2a2a;
     color: white;
     padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    /*separa esquerda / direita */
-    align-items: center;
-    /*alinha na vertical */
-    flex-wrap: wrap;
+    /* display: flex; */
+/* justify-content: space-between; */
+/*separa esquerda / direita */
+/* align-items: center; */
+/*alinha na vertical */
+/* flex-wrap: wrap; *
 }
 
 a:hover {
@@ -35,7 +58,7 @@ a:hover {
 nav a {
     color: white;
     text-decoration: none;
-    /*tira sublinhado*/
+    /*tira sublinhado*
     margin-left: 15px;
 }
 
@@ -49,24 +72,16 @@ section {
     position: relative;
     background-image: url("https://picsum.photos/1200/400");
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://picsum.photos/1200/400");
-    display: flex;
+    /* display: flex; *
     background-size: cover;
     background-position: center;
     text-align: center;
     align-items: center;
-    flex-direction: column;
-}
-
-.cards {
-    display: flex;
-    gap: 15px;
-    /* espaço entre eles*/
-    justify-content: center;
-    /*centraliza*/
+    /* flex-direction: column; *
 }
 
 .card {
-    width: 200px;
+    /* width: 200px;; *
     border: 1px solid rgba(255, 255, 255, 0.1);
     background-color: #333;
     padding: 15px;
@@ -79,10 +94,6 @@ section {
     height: 150px;
 }
 
-.pecas .cards {
-    flex-wrap: wrap;
-    /*quebra linha se necessario*/
-}
 
 button {
     margin-top: 10px;
@@ -119,48 +130,7 @@ footer a {
     text-align: center;
 }
 
-.caixa {
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;
-    padding: 0 20px;
-}
-
 .busca {
-    flex: 1;
+    /* flex: 1; *
     text-align: center;
-}
-
-.pecas {
-    flex: 2;
-}
-
-@media (max-width: 768px) {
-
-    .banner {
-        margin: 10px;
-    }
-
-    .cards {
-        flex-direction: column;
-        gap: 15px;
-        align-items: center;
-    }
-
-    .caixa {
-        flex-direction: column;
-        align-items: center;
-    }
-
-}
-
-@media (max-width: 1024px) {
-    .cards {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .card {
-        width: 45%;
-    }
 }
